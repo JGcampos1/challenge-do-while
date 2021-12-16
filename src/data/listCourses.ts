@@ -1,0 +1,20 @@
+export const listCourses = [
+  'Java',
+  'PHP',
+  'Ruby on Rails',
+  '.NET',
+  'Pascal',
+  'Flexbox',
+  'Desenvolvimento Web',
+  'Java Web ',
+  'Javascript',
+  'AngularJS ',
+  'TDD com C ',
+  'Redes de computadores',
+  'MySQL ',
+  'MariaDB',
+  'Postegres',
+  'Lógica de programação 1',
+  'Lógica de programação 2',
+  'Lógica de programação 3'
+]

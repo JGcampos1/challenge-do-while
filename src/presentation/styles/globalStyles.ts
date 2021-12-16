@@ -14,8 +14,8 @@ export default createGlobalStyle`
     padding:0;
     border:0;
   }
-  root{}
   body{
+  
     background:#f0f0f5;
     font-family: 'IBM Plex Sans', sans-serif;
       
