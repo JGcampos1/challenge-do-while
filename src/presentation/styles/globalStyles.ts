@@ -7,6 +7,7 @@ export default createGlobalStyle`
   --white: #ffffff;
   --dark-color:#4D2B79;
   --blue-pastel:#94B3FD;
+  --blue-clean-pastel:#94DAFF;
 }
   *{
     margin:0;
