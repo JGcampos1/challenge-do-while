@@ -1,6 +1,7 @@
 import Header from 'presentation/components/header'
 import React from 'react'
 import About from './components/About'
+import Benefits from './components/benefits'
 import Courses from './components/courses'
 import Depositions from './components/depositions'
 
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       <About />
       <Courses />
       <Depositions />
+      <Benefits />
     </>
   )
 }

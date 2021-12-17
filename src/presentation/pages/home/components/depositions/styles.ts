@@ -34,7 +34,7 @@ export const Container = styled.div`
         padding: 10px;
         border-radius: 10px 10px 0 0;
 
-        background: var(--dark-color);
+        background: var(--pruple-pastel);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -52,7 +52,7 @@ export const Container = styled.div`
             color: var(--white);
           }
           p {
-            color: var(--blue-clean-pastel);
+            color: var(--dark-color);
           }
         }
       }
