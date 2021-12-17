@@ -15,7 +15,7 @@ export const Container = styled.div`
     margin-left: 30px;
     flex: 3;
     h2 {
-      color: var(--pruple-pastel);
+      color: var(--purple-pastel);
     }
     p {
       margin: 10px 0;

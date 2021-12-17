@@ -8,7 +8,7 @@ const Depositions: React.FC = () => {
     <Container>
       <div className="containerTitle">
         <p>vale a pena estudar na rocket?</p>
-        <h2>Veja alguins depoimentos ex alunos</h2>
+        <h2>Veja alguns depoimentos ex alunos</h2>
       </div>
       <div className="containerDepositions">
         {listDepositions.map((deposition, index) => {

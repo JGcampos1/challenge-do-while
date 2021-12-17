@@ -13,7 +13,7 @@ export const Container = styled.div`
   padding: 5px 32px;
 
   h1 {
-    color: var(--pruple-pastel);
+    color: var(--purple-pastel);
   }
   nav {
     ul {
@@ -29,7 +29,7 @@ export const Container = styled.div`
       transition: 300ms;
     }
     li:hover {
-      background: var(--pruple-pastel);
+      background: var(--purple-pastel);
 
       color: var(--white);
     }

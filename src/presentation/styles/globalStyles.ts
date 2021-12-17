@@ -3,11 +3,12 @@ import { createGlobalStyle } from 'styled-components'
 export default createGlobalStyle`
 
 :root {
-  --pruple-pastel: #B983FF;
+  --purple-pastel: #B983FF;
   --white: #ffffff;
   --dark-color:#4D2B79;
   --blue-pastel:#94B3FD;
   --blue-clean-pastel:#94DAFF;
+  --gren-clean-pastel:#99FEFF;
 }
   *{
     margin:0;
@@ -20,7 +21,7 @@ export default createGlobalStyle`
     font-family: 'IBM Plex Sans', sans-serif;
       
   }
-  h1,h2,h3,h4,h5{
+  h1,h2,h3,h4,h5,h6{
     font-family: 'Comfortaa', cursive;
   }
   
@@ -38,6 +39,9 @@ export default createGlobalStyle`
   }
   h5{
     font-size:24px;
+  }
+  h6{
+    font-size:21px;
   }
   
   `

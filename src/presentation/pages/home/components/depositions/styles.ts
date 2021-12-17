@@ -15,7 +15,7 @@ export const Container = styled.div`
       color: var(--blue-pastel);
     }
     h2 {
-      color: var(--pruple-pastel);
+      color: var(--purple-pastel);
     }
   }
   .containerDepositions {
@@ -31,10 +31,10 @@ export const Container = styled.div`
       background: #f0f0f5;
       border-radius: 10px;
       .headerDepositions {
-        padding: 10px;
+        padding: 15px;
         border-radius: 10px 10px 0 0;
 
-        background: var(--pruple-pastel);
+        background: var(--purple-pastel);
         display: flex;
         align-items: center;
         justify-content: space-between;

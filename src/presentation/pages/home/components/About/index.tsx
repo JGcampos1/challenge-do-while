@@ -27,7 +27,7 @@ const About: React.FC = () => {
           velocidade de aprendizado é a chave para o sucesso.
         </p>
         <p>
-          Por isso a Rocketseat oferece através de uma plataforma inteligente e
+          Por isso a Rocketoferece através de uma plataforma inteligente e
           metodologia prática, além de comunidade, eventos, conteúdo e conexão
           com o mercado de trabalho, todas as ferramentas que você precisa para
           masterizar no menor tempo possível as tecnologias mais modernas de
