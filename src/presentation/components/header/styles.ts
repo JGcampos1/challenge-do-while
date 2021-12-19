@@ -11,11 +11,20 @@ export const Container = styled.div`
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 5px 32px;
-
-  h1 {
-    color: var(--purple-pastel);
+  .containerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      color: var(--purple-pastel);
+    }
+    .menuBar {
+      display: none;
+    }
   }
+
   nav {
+    display: flex;
     ul {
       display: flex;
     }
@@ -34,8 +43,17 @@ export const Container = styled.div`
       color: var(--white);
     }
   }
+  .navOpened {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navClosed {
+    display: none;
+  }
 
   .buttonsLogin {
+    display: flex;
     .buttonSignIn {
       margin-right: 15px;
       background: transparent;
@@ -54,6 +72,27 @@ export const Container = styled.div`
       color: var(--white);
       padding: 10px 15px;
       border-radius: 10px;
+    }
+  }
+  @media (max-width: 900px) {
+    .containerTitle {
+      .menuBar {
+        display: initial;
+      }
+    }
+    flex-direction: column;
+    nav {
+      align-items: center;
+
+      ul {
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .buttonsLogin {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 `

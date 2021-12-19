@@ -4,7 +4,6 @@ import animationData from '../../../../../main/assets/looties/rocket.json'
 import { Container } from './styles'
 
 const About: React.FC = () => {
-  console.log(animationData)
   const defaultOptions = {
     loop: true,
     autoplay: true,

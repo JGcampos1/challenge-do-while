@@ -14,13 +14,14 @@ export const Container = styled.div`
     color: var(--purple-pastel);
   }
   .flexPlain {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .containerPlain {
-    width: 300px;
+    max-width: 300px;
     margin: 32px 32px 0px 0px;
     display: flex;
     flex-direction: column;

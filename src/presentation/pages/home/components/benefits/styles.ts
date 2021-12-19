@@ -8,6 +8,7 @@ export const Container = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     .benefit {
       display: flex;
       flex-direction: column;
@@ -15,6 +16,8 @@ export const Container = styled.div`
       justify-content: center;
       color: white;
       margin: 5px;
+      min-width: 100px;
+      width: 250px;
 
       svg {
         font-size: 36px;
